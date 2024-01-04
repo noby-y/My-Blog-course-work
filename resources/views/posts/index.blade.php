@@ -27,7 +27,6 @@
                             <a href="{{ route('posts.show', $post) }}" class="font-weight-bold text-success">
                                 <h3 class=""">{{ $post->title }}</h3>
                                     </a>
-                                    <p class=" text-muted">{{ $post->post }}</p>
                         </div>
                         @endforeach
                     </div>
