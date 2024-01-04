@@ -12,7 +12,7 @@ class UserControllerTest extends TestCase
     public function setUp(): void
     {
         parent::setUp();
-        echo "set up runs\n";
+        
         // Run the UserSeeder to create the user
         $this->seed(UserSeeder::class);
     }
