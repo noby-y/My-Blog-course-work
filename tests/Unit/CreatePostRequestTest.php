@@ -47,6 +47,4 @@ class CreatePostRequestTest extends TestCase
 
         $this->assertTrue($validator->fails()); // If validation fails, assert true (fails)
     }
-
-    // ... your other test methods
 }
